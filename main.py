@@ -28,3 +28,6 @@ while True:
     action, _states = model.predict(obs, deterministic=True)
     obs, reward, done, truncated, info = env.step(action)
     env.render()
+
+# env.close()
+# asdfasdfasdfasf
