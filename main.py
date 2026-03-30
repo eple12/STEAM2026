@@ -2,7 +2,6 @@ import gymnasium
 import highway_env
 from stable_baselines3 import DQN
 
-
 env = gymnasium.make("highway-fast-v0")
 model = DQN('MlpPolicy', env,
               policy_kwargs=dict(net_arch=[256, 256]),
